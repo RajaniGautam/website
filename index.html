@@ -3,74 +3,331 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajani Gautam Poudel</title>
+    <title>Rajani Gautam Poudel - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="profile">
-            <img src="rajani.jpg" alt="Rajani Gautam Poudel">
-            <h1>Rajani Gautam Poudel</h1>
-            <p>Travel Enthusiast | Spiritual Devotee | DIY Creator</p>
-        </div>
-    </header>
-    
     <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#awards">Awards</a></li>
-            <li><a href="#family">Family</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <div class="nav-content">
+            <div class="logo">RGP</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#family">Family</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </nav>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate traveler, deeply spiritual, and a devoted family person. I enjoy making handmade crafts, sewing, and cooking delicious dishes. I find joy in creating DIY projects and spending time with my loved ones.</p>
-    </section>
-    
-    <section id="hobbies">
-        <h2>Hobbies & Interests</h2>
-        <ul>
-            <li>Traveling to new places</li>
-            <li>Practicing spirituality and meditation</li>
-            <li>Cooking traditional and fusion dishes</li>
-            <li>Sewing and designing clothes</li>
-            <li>Creating DIY handmade products</li>
-        </ul>
-    </section>
-    
-    <section id="awards">
-        <h2>Awards & Achievements</h2>
-        <p>🏆 National Kabaddi Championship Winner</p>
-    </section>
-    
-    <section id="family">
-        <h2>Family</h2>
-        <div class="family-member">
-            <img src="yamnath.jpg" alt="Yamnath Poudel">
-            <p><strong>Husband:</strong> Yamnath Poudel</p>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="animate-text">Rajani Gautam Poudel</h1>
+                <p class="subtitle">Spiritual Enthusiast | DIY Creator | National Athlete</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-frame">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&h=400&fit=crop" alt="Rajani Gautam Poudel" class="profile-pic">
+                </div>
+            </div>
         </div>
-        <div class="family-member">
-            <img src="kashish.jpg" alt="Kashish Poudel">
-            <p><strong>Daughter:</strong> Kashish Poudel</p>
-        </div>
-        <div class="family-member">
-            <img src="keshav.jpg" alt="Keshav Poudel">
-            <p><strong>Son:</strong> Keshav Poudel</p>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll to explore</p>
         </div>
     </section>
-    
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: rajani@example.com</p>
-        <p>Phone: +977-XXXXXXXXXX</p>
+
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="highlight-text">Namaste! 🙏</p>
+                <p>I am a passionate homemaker who finds joy in creating a warm and loving environment for my family. My days are filled with the art of cooking, crafting, and maintaining our spiritual connection.</p>
+                <p>As a modern homemaker, I believe in balancing traditional values with contemporary lifestyle. I enjoy experimenting with new recipes, creating DIY home decor, and sharing my experiences with other women who share similar interests.</p>
+                <p>My home is my canvas where I express my creativity through cooking, crafting, and creating beautiful memories with my family.</p>
+            </div>
+            <div class="skills">
+                <h3>Areas of Expertise</h3>
+                <div class="skill-item">
+                    <span>Cooking & Culinary Arts</span>
+                    <div class="progress-bar" data-progress="95">
+                        <div class="progress-label">95%</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>DIY Crafts & Creativity</span>
+                    <div class="progress-bar" data-progress="90">
+                        <div class="progress-label">90%</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Sewing & Fashion Design</span>
+                    <div class="progress-bar" data-progress="85">
+                        <div class="progress-label">85%</div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <span>Home Management</span>
+                    <div class="progress-bar" data-progress="98">
+                        <div class="progress-label">98%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
+
+    <section id="gallery" class="gallery">
+        <h2 class="section-title">My Photo Gallery</h2>
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="travel">Travel</button>
+            <button class="filter-btn" data-filter="family">Family</button>
+            <button class="filter-btn" data-filter="cooking">Cooking</button>
+            <button class="filter-btn" data-filter="crafts">Crafts</button>
+        </div>
+        <div class="gallery-grid">
+            <!-- Travel Photos -->
+            <div class="gallery-item" data-category="travel">
+                <img src="https://images.unsplash.com/photo-1585123388867-3bfe6dd4bdbf?q=80&w=600&h=400&fit=crop" alt="Travel Memory">
+                <div class="gallery-caption">
+                    <h3>Pashupatinath Temple Visit</h3>
+                    <p>A spiritual journey to find inner peace</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="travel">
+                <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?q=80&w=600&h=400&fit=crop" alt="Mountain Trek">
+                <div class="gallery-caption">
+                    <h3>Himalayan Adventure</h3>
+                    <p>Trekking through nature's beauty</p>
+                </div>
+            </div>
+            <!-- Cooking Photos -->
+            <div class="gallery-item" data-category="cooking">
+                <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?q=80&w=600&h=400&fit=crop" alt="Cooking">
+                <div class="gallery-caption">
+                    <h3>Traditional Nepali Cuisine</h3>
+                    <p>Preserving our culinary heritage</p>
+                </div>
+            </div>
+            <!-- Craft Photos -->
+            <div class="gallery-item" data-category="crafts">
+                <img src="https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?q=80&w=600&h=400&fit=crop" alt="DIY Crafts">
+                <div class="gallery-caption">
+                    <h3>Handmade Creations</h3>
+                    <p>Creating beauty with my hands</p>
+                </div>
+            </div>
+            <!-- Family Photos -->
+            <div class="gallery-item" data-category="family">
+                <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?q=80&w=600&h=400&fit=crop" alt="Family Celebration">
+                <div class="gallery-caption">
+                    <h3>Festival Celebrations</h3>
+                    <p>Joyous moments with loved ones</p>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=600&h=400&fit=crop" alt="Family Picnic">
+                <div class="gallery-caption">
+                    <h3>Weekend Family Time</h3>
+                    <p>Making memories together</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-upload">
+            <h3>Share Your Memories</h3>
+            <form id="photoUploadForm" class="upload-form">
+                <div class="upload-area">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <p>Drag & Drop photos here or click to upload</p>
+                    <input type="file" id="photoInput" multiple accept="image/*">
+                </div>
+                <button type="submit" class="upload-btn">Upload Photos</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="family" class="family">
+        <h2 class="section-title">My Family</h2>
+        <div class="family-grid">
+            <div class="family-member">
+                <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=400&h=400&fit=crop" alt="Yamnath Poudel">
+                <h3>Yamnath Poudel</h3>
+                <p>Loving Husband</p>
+                <div class="member-quote">"Life partner and biggest supporter"</div>
+            </div>
+            <div class="family-member">
+                <img src="https://images.unsplash.com/photo-1517677129300-07b130802f46?q=80&w=400&h=400&fit=crop" alt="Kashish Poudel">
+                <h3>Kashish Poudel</h3>
+                <p>Daughter</p>
+                <div class="member-quote">"My creative inspiration"</div>
+            </div>
+            <div class="family-member">
+                <img src="https://images.unsplash.com/photo-1513207565459-d7f36bfa1222?q=80&w=400&h=400&fit=crop" alt="Keshav Poudel">
+                <h3>Keshav Poudel</h3>
+                <p>Son</p>
+                <div class="member-quote">"My pride and joy"</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="interests">
+        <h2 class="section-title">Daily Life & Interests</h2>
+        <div class="interests-grid">
+            <div class="interest-card">
+                <i class="fas fa-pray"></i>
+                <h3>Morning Rituals</h3>
+                <p>Starting each day with spiritual practices and meditation</p>
+                <ul class="interest-details">
+                    <li>Morning prayers</li>
+                    <li>Yoga and meditation</li>
+                    <li>Setting daily intentions</li>
+                </ul>
+            </div>
+            <div class="interest-card">
+                <i class="fas fa-utensils"></i>
+                <h3>Kitchen Stories</h3>
+                <p>Creating delicious meals and preserving traditional recipes</p>
+                <ul class="interest-details">
+                    <li>Family recipes collection</li>
+                    <li>Healthy meal planning</li>
+                    <li>Festival special dishes</li>
+                </ul>
+            </div>
+            <div class="interest-card">
+                <i class="fas fa-home"></i>
+                <h3>Home Management</h3>
+                <p>Creating a harmonious living space for my family</p>
+                <ul class="interest-details">
+                    <li>Organized living</li>
+                    <li>Budget planning</li>
+                    <li>Sustainable practices</li>
+                </ul>
+            </div>
+            <div class="interest-card">
+                <i class="fas fa-heart"></i>
+                <h3>Family Time</h3>
+                <p>Nurturing relationships and creating memories</p>
+                <ul class="interest-details">
+                    <li>Weekend activities</li>
+                    <li>Educational support</li>
+                    <li>Family traditions</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements">
+        <h2 class="section-title">Achievements & Recognition</h2>
+        <div class="achievement-list">
+            <div class="achievement-item">
+                <div class="achievement-icon">🏆</div>
+                <div class="achievement-content">
+                    <h3>National Kabbadi Championship</h3>
+                    <p>Champion in National Tournament</p>
+                    <div class="achievement-details">
+                        <span><i class="fas fa-calendar"></i> 2015</span>
+                        <span><i class="fas fa-map-marker-alt"></i> National Stadium</span>
+                    </div>
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-icon">🎨</div>
+                <div class="achievement-content">
+                    <h3>Community Leadership</h3>
+                    <p>Women's Group President</p>
+                    <div class="achievement-details">
+                        <span><i class="fas fa-calendar"></i> 2020</span>
+                        <span><i class="fas fa-users"></i> Local Community</span>
+                    </div>
+                </div>
+            </div>
+            <div class="achievement-item">
+                <div class="achievement-icon">👩‍🍳</div>
+                <div class="achievement-content">
+                    <h3>Culinary Excellence</h3>
+                    <p>Best Traditional Recipe Award</p>
+                    <div class="achievement-details">
+                        <span><i class="fas fa-calendar"></i> 2022</span>
+                        <span><i class="fas fa-map-marker-alt"></i> Cultural Festival</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>rajani.gautam@example.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+977 98XXXXXXXX</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Kathmandu, Nepal</p>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Keshav Poudel. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Rajani Gautam Poudel</h3>
+                <p>Homemaker | Spiritual Enthusiast | DIY Creator</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Rajani Gautam Poudel. All rights reserved.</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
