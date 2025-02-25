@@ -638,74 +638,75 @@ nav {
 }
 
 /* Contact Section */
+/* Contact Section */
 .contact {
-    padding: 6rem 2rem;
+    padding: 3rem 1.5rem; /* Reduced from 6rem 2rem */
     background-color: var(--card-bg);
 }
 
 .contact-content {
-    max-width: 1200px;
+    max-width: 1000px; /* Reduced from 1200px */
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 4rem;
+    gap: 2rem; /* Reduced from 4rem */
 }
 
 .contact-info {
     display: grid;
-    gap: 2rem;
+    gap: 1rem; /* Reduced from 2rem */
 }
 
 .contact-item {
     background: var(--primary-color);
-    padding: 2rem;
-    border-radius: 10px;
+    padding: 1.25rem; /* Reduced from 2rem */
+    border-radius: 8px; /* Reduced from 10px */
     text-align: center;
     transition: transform 0.3s ease;
 }
 
 .contact-item:hover {
-    transform: translateY(-5px);
+    transform: translateY(-3px); /* Reduced from -5px */
 }
 
 .contact-item i {
-    font-size: 2rem;
+    font-size: 1.5rem; /* Reduced from 2rem */
     color: var(--accent-color);
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem; /* Reduced from 1rem */
 }
 
 .contact-form {
     background: var(--primary-color);
-    padding: 2rem;
-    border-radius: 10px;
+    padding: 1.5rem; /* Reduced from 2rem */
+    border-radius: 8px; /* Reduced from 10px */
 }
 
 .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem; /* Reduced from 1.5rem */
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 1rem;
+    padding: 0.75rem; /* Reduced from 1rem */
     background: var(--card-bg);
     border: none;
-    border-radius: 5px;
+    border-radius: 4px; /* Reduced from 5px */
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 0.9rem; /* Reduced from 1rem */
 }
 
 .form-group textarea {
-    height: 150px;
+    height: 120px; /* Reduced from 150px */
     resize: vertical;
 }
 
 .submit-btn {
     background: var(--accent-color);
     color: var(--text-color);
-    padding: 1rem 2rem;
+    padding: 0.75rem 1.5rem; /* Reduced from 1rem 2rem */
     border: none;
-    border-radius: 5px;
+    border-radius: 4px; /* Reduced from 5px */
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%;
